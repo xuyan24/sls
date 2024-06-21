@@ -1,0 +1,30 @@
+# envs 
+.vscode/
+__pycache__/
+.DS_Store
+*.idea
+*.pyc
+
+# build
+*.so
+*.dylib
+build/
+Dockerfile
+cmake-build-*
+.devcontainer.json
+partition/ply_c/build
+dist/
+*.egg-info/
+
+# train
+wandb/
+results/
+results_part/
+results_partition/
+*.ply
+
+# debug
+embedding_vis.png
+embedding_vis_umap.png
+embedding_vis_tsne.png
+*.dat
